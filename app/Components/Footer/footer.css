@@ -1,0 +1,23 @@
+body {
+    color: white;
+}
+
+.footer-box {
+    padding-top: 3em;
+    padding-left: 4em;
+}
+
+.footer-title {
+    font-size:4em;
+    font-weight: 100;
+}
+
+.footer-meme {
+    font-size:2em;
+    font-weight: 400;
+    color: yellow;
+}
+
+.meme-picture {
+    height: 4em;
+}
