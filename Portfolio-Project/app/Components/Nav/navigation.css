@@ -1,0 +1,32 @@
+/* --------- Navigation Styling --------- */
+.navigation-box {
+    padding-top: 7em;
+    padding-left: 4em;
+    display: flex;
+}
+
+.navigation-list {
+    list-style: none;
+    color: blue;
+    font-size: 10em;
+}
+
+.navigation-list a {
+  text-decoration: none;
+  color: blue;
+}
+
+
+
+/* --------- Animatie --------- */
+.navigation-list a:hover {
+    color: white;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+/* --------- Animatie Meme-picture-landing --------- */
+.meme-picture-landing {
+    width: 1em;
+}
+
