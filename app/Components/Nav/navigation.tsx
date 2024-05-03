@@ -6,6 +6,7 @@ import picture1 from '@/public/2.gif'
 import picture2 from '@/public/1.gif'
 import picture3 from '@/public/3.gif'
 import picture4 from '@/public/4.gif'
+import Hamburger from './hamburger';
 
 
 
@@ -17,8 +18,9 @@ export default function Navigation() {
 
 
     return (
-        <nav className='navigation-box'>
-            <ul>
+        <nav >
+        <Hamburger />
+            <ul className='navigation-box'>
                 <li className='navigation-list'>
                 <Link href='/about-me' onMouseEnter={() => setShowPicture1(true)} onMouseLeave={() => setShowPicture1(false)} >About Me</Link>
                     {showPicture1 && <img className='picture-landing' src={picture1.src} alt='Hallo!'/>}

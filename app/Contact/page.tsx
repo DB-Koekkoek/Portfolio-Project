@@ -1,5 +1,3 @@
-import { getLayout } from './layout'; // Importeer de getLayout functie uit layout.tsx
-
 function Contact() {
     return (
         <h1>Contact Pagina</h1>
