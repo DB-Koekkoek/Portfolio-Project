@@ -4,6 +4,4 @@ function Contact() {
     );
 }
 
-Contact.getLayout = getLayout; // Wijs de getLayout functie toe aan Contact pagina
-
 export default Contact;
